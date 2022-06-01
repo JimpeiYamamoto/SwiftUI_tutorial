@@ -34,6 +34,7 @@
 		7343FA332846686000078795 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343FA322846686000078795 /* Data.swift */; };
 		7343FA3528466A0D00078795 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343FA3428466A0D00078795 /* LandmarkRow.swift */; };
 		7343FA3728466B7100078795 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343FA3628466B7100078795 /* LandmarkList.swift */; };
+		7343FA392847323F00078795 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7343FA382847323F00078795 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		7343FA322846686000078795 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		7343FA3428466A0D00078795 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		7343FA3628466B7100078795 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		7343FA382847323F00078795 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +118,6 @@
 			children = (
 				7343F9E22846603A00078795 /* Landmarks */,
 				7343F9F32846603E00078795 /* LandmarksTests */,
-				7343FA0D2846636300078795 /* Resources */,
 				7343F9FD2846603E00078795 /* LandmarksUITests */,
 				7343F9E12846603A00078795 /* Products */,
 			);
@@ -143,6 +144,7 @@
 				7343FA3628466B7100078795 /* LandmarkList.swift */,
 				7343FA2F2846663A00078795 /* Models */,
 				7343F9E72846603E00078795 /* Assets.xcassets */,
+				7343FA0D2846636300078795 /* Resources */,
 				7343F9E92846603E00078795 /* Preview Content */,
 			);
 			path = Landmarks;
@@ -197,6 +199,7 @@
 		7343FA2F2846663A00078795 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7343FA382847323F00078795 /* UserData.swift */,
 				7343FA302846665300078795 /* Landmark.swift */,
 				7343FA322846686000078795 /* Data.swift */,
 			);
@@ -350,6 +353,7 @@
 				7343F9E62846603A00078795 /* LandmarkDetail.swift in Sources */,
 				7343FA332846686000078795 /* Data.swift in Sources */,
 				7343FA2E2846644500078795 /* MapView.swift in Sources */,
+				7343FA392847323F00078795 /* UserData.swift in Sources */,
 				7343FA3728466B7100078795 /* LandmarkList.swift in Sources */,
 				7343F9E42846603A00078795 /* LandmarksApp.swift in Sources */,
 				7343FA2C2846639600078795 /* CircleImage.swift in Sources */,
